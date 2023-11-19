@@ -211,7 +211,7 @@ menu:
 
         - identifier: Gmail
           name: Gmail
-          url: https://qingtianxiaojie.github.io/p/邮箱
+          url: https://qingtianxiaojie.github.io/邮箱
           params:
               icon: gmail
 

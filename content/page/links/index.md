@@ -7,7 +7,8 @@ links:
     image: jianLi.svg
   - title: Gmail
     description: 小杰的google邮箱
-    website: http://qingtianxiaojie.github.io/p/邮箱/
+    website: http://qingtianxiaojie.github.io/邮箱/
+#    website: http://localhost:1313/private/邮箱/
     image: gmail.png
   - title: GitHub
     description: 小杰的github主页

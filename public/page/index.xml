@@ -7,4 +7,14 @@ alt="简历"
 class="gallery-image"
 data-flex-grow="44"
 data-flex-basis="107px"
->&lt;/p></description></item><item><title>Archives</title><link>/archives/</link><pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate><guid>/archives/</guid><description>&lt;p>123123&lt;/p></description></item><item><title>Links</title><link>/links/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/links/</guid><description/></item><item><title>Search</title><link>/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/search/</guid><description/></item></channel></rss>
+>&lt;/p></description></item><item><title>邮箱</title><link>/%E9%82%AE%E7%AE%B1/</link><pubDate>Wed, 15 Nov 2023 00:00:00 +0000</pubDate><guid>/%E9%82%AE%E7%AE%B1/</guid><description>&lt;p>&lt;img src="/%E9%82%AE%E7%AE%B1/gmailPhoto.png"
+width="275"
+height="212"
+srcset="/%E9%82%AE%E7%AE%B1/gmailPhoto_hud76516063c45b993f153f381e7207ae5_28311_480x0_resize_box_3.png 480w, /%E9%82%AE%E7%AE%B1/gmailPhoto_hud76516063c45b993f153f381e7207ae5_28311_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="gmail"
+class="gallery-image"
+data-flex-grow="129"
+data-flex-basis="311px"
+>&lt;/p>
+&lt;h1 id="mrcenmjgmailcom">&lt;code>mrcenmj@gmail.com&lt;/code>&lt;/h1></description></item><item><title>Archives</title><link>/archives/</link><pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate><guid>/archives/</guid><description>&lt;p>123123&lt;/p></description></item><item><title>Links</title><link>/links/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/links/</guid><description/></item><item><title>Search</title><link>/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/search/</guid><description/></item></channel></rss>
