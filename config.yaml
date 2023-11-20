@@ -79,84 +79,108 @@ params:
 
     comments:
         enabled: true
-        provider: disqus
+        provider: waline
 
-        disqusjs:
-            shortname:
-            apiUrl:
-            apiKey:
-            admin:
-            adminLabel:
-
-        utterances:
-            repo:
-            issueTerm: pathname
-            label:
-
-        remark42:
-            host:
-            site:
-            locale:
-
-        vssue:
-            platform:
-            owner:
-            repo:
-            clientId:
-            clientSecret:
-            autoCreateIssue: false
-
-        # Waline client configuration see: https://waline.js.org/en/reference/component.html
+        # Waline client configuration see: https://waline.js.org/en/reference/client.html
         waline:
-            serverURL: https://xiaojie-vercel-dchu-aar060rz4-xiaojies-projects.vercel.app/
+            serverURL: xiaojie-vercel-dchu.vercel.app
             lang: zh-CN
-#            visitor: true  #新加 暂不知道功能
-#            avatar: # 新加
-#            pageview:
+            visitor: false
+            avatar:
             emoji:
-                - https://unpkg.com/@waline/emojis@1.0.1/weibo
+                - https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/tieba
+                - https://cdn.jsdelivr.net/gh/walinejs/emojis/qq
+                - https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/alus
             requiredMeta:
                 - name
                 - email
                 - url
-#            placeholder: # 新加
+            placeholder:
             locale:
-                admin: Admin
-                placeholder:
+                admin: 博主
 
-        twikoo:
-            envId:
-            region:
-            path:
-            lang:
 
-        # See https://cactus.chat/docs/reference/web-client/#configuration for description of the various options
-        cactus:
-            defaultHomeserverUrl: "https://matrix.cactus.chat:8448"
-            serverName: "cactus.chat"
-            siteName: "" # You must insert a unique identifier here matching the one you registered (See https://cactus.chat/docs/getting-started/quick-start/#register-your-site)
+# Waline client configuration see: https://waline.js.org/en/reference/component.html
+#        waline:
+#            serverURL: https://xiaojie-vercel-dchu-aar060rz4-xiaojies-projects.vercel.app
+#            lang: zh-CN
+##            visitor: false  #新加 暂不知道功能
+#            path: window.location.pathname.replace(/\/$/,'') # 文章页路径
+##            avatar: # 新加
+##            pageview:
+##            emoji:
+##                - https://unpkg.com/@waline/emojis@1.0.1/weibo
+#            emoji:
+#                - https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/tieba
+#                - https://cdn.jsdelivr.net/gh/walinejs/emojis/qq
+#                - https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/alus
+#            requiredMeta: # 评论者相关属性
+#                - name
+#                - email
+#                - url
+##            placeholder: # 新加
+#            locale: # 等级命名
+#                admin: xiaojie
+#                placeholder:
 
-        giscus:
-            repo:
-            repoID:
-            category:
-            categoryID:
-            mapping:
-            lightTheme:
-            darkTheme:
-            reactionsEnabled: 1
-            emitMetadata: 0
-
-        gitalk:
-            owner:
-            admin:
-            repo:
-            clientID:
-            clientSecret:
-
-        cusdis:
-            host:
-            id:
+#        disqusjs:
+#            shortname:
+#            apiUrl:
+#            apiKey:
+#            admin:
+#            adminLabel:
+#
+#        utterances:
+#            repo:
+#            issueTerm: pathname
+#            label:
+#
+#        remark42:
+#            host:
+#            site:
+#            locale:
+#
+#        vssue:
+#            platform:
+#            owner:
+#            repo:
+#            clientId:
+#            clientSecret:
+#            autoCreateIssue: false
+#
+#        twikoo:
+#            envId:
+#            region:
+#            path:
+#            lang:
+#
+#        # See https://cactus.chat/docs/reference/web-client/#configuration for description of the various options
+#        cactus:
+#            defaultHomeserverUrl: "https://matrix.cactus.chat:8448"
+#            serverName: "cactus.chat"
+#            siteName: "" # You must insert a unique identifier here matching the one you registered (See https://cactus.chat/docs/getting-started/quick-start/#register-your-site)
+#
+#        giscus:
+#            repo:
+#            repoID:
+#            category:
+#            categoryID:
+#            mapping:
+#            lightTheme:
+#            darkTheme:
+#            reactionsEnabled: 1
+#            emitMetadata: 0
+#
+#        gitalk:
+#            owner:
+#            admin:
+#            repo:
+#            clientID:
+#            clientSecret:
+#
+#        cusdis:
+#            host:
+#            id:
     widgets:
         homepage:
             - type: search
