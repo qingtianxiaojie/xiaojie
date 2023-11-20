@@ -108,15 +108,18 @@ params:
 
         # Waline client configuration see: https://waline.js.org/en/reference/component.html
         waline:
-            serverURL:
-            lang:
-            pageview:
+            serverURL: https://xiaojie-vercel-dchu-aar060rz4-xiaojies-projects.vercel.app/
+            lang: zh-CN
+#            visitor: true  #新加 暂不知道功能
+#            avatar: # 新加
+#            pageview:
             emoji:
                 - https://unpkg.com/@waline/emojis@1.0.1/weibo
             requiredMeta:
                 - name
                 - email
                 - url
+#            placeholder: # 新加
             locale:
                 admin: Admin
                 placeholder:
